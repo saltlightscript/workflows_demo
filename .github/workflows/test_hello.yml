@@ -23,7 +23,7 @@ jobs:
      
      - run: echo "The ${{ github.repository }} repository has been cloned to the runner."
 
-     - name: List files in epository
+     - name: List files in repository
        run: |
          echo "The contents of the repository are:"
          ls ${{ github.worksapce }}
