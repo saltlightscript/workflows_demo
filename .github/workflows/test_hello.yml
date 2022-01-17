@@ -11,7 +11,7 @@ jobs:
     steps:
       
       # Runs a single command using runners shell, using run:
-     - run: echo "Job automatically triggered by event ${{ github.event_name }}
+     - run: echo "Job automatically triggered by event ${{ github.event_name }}."
      
      # Runs a set of commands using runners shell, using run: |
      - run: |
