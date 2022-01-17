@@ -31,7 +31,7 @@ jobs:
      - name: Setup Python
        uses: actions/setup-python@v2
        with: 
-         python-cersion: ${{ matrix.python-version }}
+         python-version: ${{ matrix.python-version }}
          
      - run: echo "Python has been set up."
      
