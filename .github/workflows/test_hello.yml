@@ -15,7 +15,7 @@ jobs:
      
      # Runs a set of commands using runners shell, using run: |
      - run: |
-         echo "Job running on a ${{ unner.os }} server hosted by GitHub."
+         echo "Job running on a ${{ runner.os }} server hosted by GitHub."
          echo "On branch ${{ github.ref }} of repository ${{ github.repository }}."
      
      - name: Check out repository code so it can be run by GitHub  
